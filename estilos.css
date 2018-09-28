@@ -1,0 +1,40 @@
+
+/*primer paso las variables las declaramos arriba de todo
+ en la raiz de nuestro sitio para poder usarlas en cualquier 
+ lado con root
+*/
+:root{
+	--blanco:#FFF;
+	--negro:#000;
+	--naranja:#F90;
+	
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+
+body{
+	
+	font-family:arial;
+	background-image: url(images/pattern.jpg);
+	
+}
+.cabecera {
+	margin:auto;
+	max-width: 1000px;
+}
+
+.contenido{
+	
+	margin:auto;
+	max-width: 1000px;
+	/*usamos la variable*/
+	
+	
+	background-color:var(--blanco);
+}
+	
